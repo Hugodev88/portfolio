@@ -1,0 +1,25 @@
+/* src/styles/Projects.css */
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 10px;
+  /* transition: 0.3s; */
+}
+
+ul li:hover {
+  background-color: #f0f0f0; /* Fundo ao passar o mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Leve sombra para dar o efeito */
+  cursor: pointer;
+}
